@@ -10,7 +10,7 @@ class Phrase {
     }
 
     //method for building in input on <li> per character 
-    addPhraseDisplay(){
+    addPhraseToDisplay(){
         const ul = document.querySelector('#phrase ul');
         // loop, set char to a variable, and create li for char 
         for (let i = 0; i < this.phrase.length; i++) {

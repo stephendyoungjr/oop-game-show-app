@@ -87,6 +87,8 @@ class Game {
     //check if every letter on the board is revealed, means they won
     checkForWin() {
       const letterTiles = document.querySelectorAll("#phrase ul li.letter");
+      //guard against an empty board counting as a win
+      if (letterTiles.length === 0) return false;
       return [...letterTiles].every((li) => li.classList.contains("show"));
     }
 
@@ -138,6 +140,3 @@ class Game {
       this.activePhrase = null;
     }
 }
-
-
-
