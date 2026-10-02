@@ -2,6 +2,8 @@
  * Project 4 - OOP Game App
  * Game.js */
 
+//game class is set 
+
 class Game {
     constructor(){
         //Number of wrong guesses 

@@ -1,7 +1,7 @@
 /* Treehouse FSJS Techdegree
  * Project 4 - OOP Game App
  * app.js */
-
+// initialize game 
 let game;
 
 // Start a new game when the "Start Game" button is clicked
